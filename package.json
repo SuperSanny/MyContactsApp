@@ -1,0 +1,42 @@
+{
+  "name": "mycontacts",
+  "version": "1.0.0",
+  "description": "This is contacts storing application.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "server": "node server.js",
+    "build": "parcel build index.html",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sanny Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "buffer": "^6.0.3",
+    "install": "^0.13.0",
+    "npm": "^9.7.2",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.24",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.0.5",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  }
+}
